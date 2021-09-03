@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<div id="modelDiv" style="background-color:#181818;background-position: center center;text-align: center;" class="responsive-width">
+		<h1 class="display-4 bold white-color" style="color:#ffffff;line-height: 90%;font-size:12.5rem;padding-top:8.75rem">Convolution</h1>
+		<video id="video"  playsinline autoplay style="display:none;"></video>
+    <canvas id="canvas" style="border:3px solid #48e073; margin-top:6.25rem; margin-bottom:8rem" width="512" height="512"></canvas>
+    <canvas id="canvas2" style="border:3px solid #48e073; margin-top:6.25rem; margin-bottom:8rem" width="512" height="512"></canvas>
+    <input type="checkbox" id="mirrorCheck" value="second_checkbox" style="margin-bottom:8rem" onclick='changed()'> <label for="mirrorCheck" style="color:#ffffff" class="thin">Mirror image</label>
+	</div>
+</body>
+
+</html>

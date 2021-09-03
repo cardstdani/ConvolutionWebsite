@@ -1,0 +1,52 @@
+.white-color {
+  color:#ffffff;
+}
+
+.dark-color {
+  color:#181818;
+}
+
+.responsive-width {
+  min-width: 50rem;
+}
+
+.responsive-height {
+  min-height:67.5rem;
+}
+
+
+@media (max-width:960px) { 
+  .useless-div{
+  width:100%;
+  height:56.25vh;
+}
+} 
+
+@media (min-width:960px) { 
+  .useless-div{
+  width:100%;
+  height:56.25vw;
+}
+}
+
+@media screen and (max-width: 1560px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.bold {
+  font-family: 'Gelion-bold';
+}
+
+.thin {
+  font-family: 'Gelion-thin';
+}
+
+.bold-italic {
+  font-family: 'Gelion-thin';
+}
+
+@font-face { font-family: 'Gelion-thin'; src: url('GELION-THIN.TTF');}
+@font-face { font-family: 'Gelion-bold-italic'; src: url('GELION-BOLDITALIC.TTF');}
+@font-face { font-family: 'Gelion-bold'; src: url('GELION-BOLD.TTF');}
